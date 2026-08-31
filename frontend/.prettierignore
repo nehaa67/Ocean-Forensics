@@ -1,0 +1,7 @@
+node_modules
+.next
+.vinext
+out
+dist
+build
+coverage

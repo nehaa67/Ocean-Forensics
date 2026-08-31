@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "name": "sanchi_ais_candidate_points",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "vessel_name": "SANCHI",
+        "mmsi": "356137000",
+        "closest_timestamp": "2018-01-05T02:46:00Z",
+        "distance_to_source_km": 782.88,
+        "distance_to_trajectory_km": 749.45,
+        "speed_knots": 12.5,
+        "heading_deg": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.104167,
+          25.274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "vessel_name": "CF CRYSTAL",
+        "mmsi": null,
+        "closest_timestamp": "2018-01-06T11:39:46Z",
+        "distance_to_source_km": 360.32,
+        "distance_to_trajectory_km": 360.3,
+        "speed_knots": 13.2,
+        "heading_deg": 220.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.99256333333334,
+          30.880975
+        ]
+      }
+    }
+  ]
+}

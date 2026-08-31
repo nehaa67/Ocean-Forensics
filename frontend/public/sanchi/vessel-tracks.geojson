@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "name": "sanchi_ais_vessel_tracks",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "vessel_name": "CF CRYSTAL",
+        "mmsi": null,
+        "observation_count": 8,
+        "first_timestamp": "2018-01-06T11:39:46Z",
+        "last_timestamp": "2018-01-06T11:49:46Z",
+        "closest_distance_km": 360.32
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            124.99256333333334,
+            30.880975
+          ],
+          [
+            124.99122,
+            30.87954333333333
+          ],
+          [
+            124.98751166666666,
+            30.875831666666667
+          ],
+          [
+            124.98115666666666,
+            30.870001666666667
+          ],
+          [
+            124.97666166666669,
+            30.86604833333333
+          ],
+          [
+            124.96887,
+            30.85936833333333
+          ],
+          [
+            124.965745,
+            30.85673166666667
+          ],
+          [
+            124.96259333333332,
+            30.854095
+          ]
+        ]
+      }
+    }
+  ]
+}

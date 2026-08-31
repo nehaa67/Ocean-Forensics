@@ -1,0 +1,34 @@
+[
+    {
+        "vessel_id": "V1",
+        "latitude": 55.4770,
+        "longitude": 5.2310,
+        "timestamp": "2022-01-01T00:10:00",
+        "speed": 12.0,
+        "heading": 90.0
+    },
+    {
+        "vessel_id": "V1",
+        "latitude": 55.4790,
+        "longitude": 5.2380,
+        "timestamp": "2022-01-01T00:20:00",
+        "speed": 12.2,
+        "heading": 92.0
+    },
+    {
+        "vessel_id": "V2",
+        "latitude": 55.4900,
+        "longitude": 5.2300,
+        "timestamp": "2022-01-01T00:15:00",
+        "speed": 15.0,
+        "heading": 180.0
+    },
+    {
+        "vessel_id": "V2",
+        "latitude": 55.4950,
+        "longitude": 5.2400,
+        "timestamp": "2022-01-01T00:25:00",
+        "speed": 15.1,
+        "heading": 180.0
+    }
+]

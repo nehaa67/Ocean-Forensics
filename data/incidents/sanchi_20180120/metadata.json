@@ -1,0 +1,31 @@
+{
+    "incident_id": "sanchi_20180120",
+    "name": "Sanchi",
+    "description": "Sanchi East China Sea oil spill investigation (January 2018)",
+    "observation_time": "2018-01-20T09:28:53Z",
+    "location": {
+        "region": "East China Sea",
+        "approximate_latitude": 29.5,
+        "approximate_longitude": 125.2
+    },
+    "timeline": {
+        "collision_date": "2018-01-06",
+        "sinking_date": "2018-01-14",
+        "sar_observation": "2018-01-20T09:28:53Z"
+    },
+    "expected_files": {
+        "sentinel": "Sentinel_image/S1B_IW_GRDH_1SDV_20180120T092853_20180120T092918_009253_010962_4338.SAFE",
+        "wind": "wind.nc",
+        "current": "ocean.nc",
+        "ais": "sanchi_incident_real_ais_subset.csv"
+    },
+    "source_metadata": {
+        "satellite": "Sentinel-1B",
+        "polarizations": [
+            "VV",
+            "VH"
+        ],
+        "mode": "IW",
+        "product_type": "GRDH"
+    }
+}

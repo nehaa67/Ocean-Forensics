@@ -1,0 +1,84 @@
+{
+  "report_id": "OF-2026-0847",
+  "generated_at": "29 Aug 2026 | 08:08 UTC",
+  "status": "ANALYSIS COMPLETE",
+  "classification": "UNRESTRICTED",
+
+  "incident": {
+    "incident_type": "Oil Spill Detection",
+    "detection_status": "CONFIRMED",
+    "severity": "HIGH",
+    "confidence_score": "94.2%",
+    "coordinates": "17.5368° N, 83.6685° E",
+    "region": "Bay of Bengal",
+    "detection_time": "29 Aug 2026 | 11:58 UTC",
+    "reference_time": "29 Aug 2026 | 11:58 UTC"
+  },
+
+  "satellite": {
+    "source": "Sentinel-1 SAR",
+    "acquisition_date": "29 Aug 2026",
+    "polarization": "VV",
+    "orbit_direction": "Descending",
+    "estimated_spill_area": "12.4 km²",
+    "spill_length": "8.7 km",
+    "spill_width": "1.4 km",
+    "detection_confidence": "94.2%",
+    "sea_state": "Calm"
+  },
+
+  "spill_characteristics": {
+    "oil_type": "Crude Oil",
+    "appearance": "Dark, Continuous",
+    "spread_direction": "South-East",
+    "weather_condition": "Partly Cloudy",
+    "wind_speed": "6.2 m/s",
+    "wind_direction": "WSW",
+    "surface_current": "0.42 m/s",
+    "tidal_condition": "Ebb",
+    "estimated_drift": "2.3 km"
+  },
+
+  "vessels": [
+    {
+      "rank": "01",
+      "name": "MV OCEAN STAR",
+      "imo": "9876543",
+      "type": "Oil Tanker",
+      "flag": "Panama",
+      "closest_approach": "2.1 km",
+      "correlation": "92%"
+    },
+    {
+      "rank": "02",
+      "name": "SEA VOYAGER",
+      "imo": "1234567",
+      "type": "Bulk Carrier",
+      "flag": "Liberia",
+      "closest_approach": "4.3 km",
+      "correlation": "74%"
+    },
+    {
+      "rank": "03",
+      "name": "BLUE HORIZON",
+      "imo": "7654321",
+      "type": "Cargo Ship",
+      "flag": "Marshall Islands",
+      "closest_approach": "6.8 km",
+      "correlation": "61%"
+    }
+  ],
+
+  "drift": {
+    "simulation_duration": "24 Hours",
+    "time_step": "15 Minutes",
+    "model": "OceanDrift v2.1"
+  },
+
+  "summary": {
+    "primary_vessel": "MV OCEAN STAR",
+    "correlation_score": "92%",
+    "recommended_action": "Further Investigation",
+    "generated_by": "Ocean Forensics AI"
+  }
+}
